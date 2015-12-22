@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "question": "The Port of Seattle leased the vacant Terminal 5 to which of these companies?",
+    "description": "The Port of Seattle [signed a two-year contract](http://www.seattletimes.com/business/foss-maritime-floats-plan-to-use-portrsquos-terminal-5/) with **Foss Maritime**, which planned to use the space as a home port for Shell Oil’s arctic oil-drilling fleet.",
+    "image": "test.jpg"
+  },
+  {
+    "id": 2,
+    "question": "Which company captured the largest venture-capital funding round?",
+    "description": "**Adaptive Biotechnologies**, which examines the genetic makeup of the immune system to help fight cancer, [raked in $195 million in May](http://www.seattletimes.com/business/seattle-startups-raised-11b-in-first-6-months-of-2015/) and a total of nearly $400 million. Bellevue’s K2, a business-software company, raised $153 million in April. Online legal marketplace Avvo, which [raised $71.5 million](http://www.seattletimes.com/business/technology/moneytree-report-places-3q-vc-financing-in-state-at-327m/).",
+    "image": "test.jpg"
+  },
+  {
+    "id": 3,
+    "question": "Haggen grocery chain, based in Bellingham, bought how many stores shed in the Albertsons-Safeway merger?",
+    "description": "Haggen [bought](http://www.seattletimes.com/business/local-business/bellingham-based-haggen-growing-from-18-stores-to-164/) **146** of the 168 stores jettisoned in the Albertsons-Safeway merger. If filed for Chapter 11 bankruptcy protection in September and plans to offer all the stores up for auction.",
+    "image": "test.jpg"
+  },
+  {
+    "id": 4,
+    "question": "Which of these companies was bought by Warren Buffett’s Berkshire Hathaway?",
+    "description": "Berkshire Hathaway [agreed to pay $37.2 billion](http://www.seattletimes.com/business/buffett-to-acquire-portlands-precision-castparts-in-372b-deal/) to buy Portland-based **Precision Castparts**, the maker of equipment for the aerospace and energy industries. Berkshire Hathaway bought into Symetra in 2004 and sold its interest this year.",
+    "image": "test.jpg"
+  },
+  {
+    "id": 5,
+    "question": "Is this object?",
+    "description": "The object is a **heat exchanger** from one of the Apollo 16 rocket engines retrieved from the ocean and [donated to the Museum of Flight](http://www.seattletimes.com/business/boeing-aerospace/apollo-12-engine-rescued-by-bezos-goes-to-museum-of-flight/). ",
+    "image": "test.jpg"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following area buildings was NOT acquired by Chinese investors eager for a secure and stable place for their money?",
+    "description": "The [award-winning **Weyerhaeuser headquarter building**](http://www.seattletimes.com/business/weyerhaeuser-campus-draws-global-admirers/) in Federal Way has been for sale since August 2014. Hong Kong-based Gaw Capital Partners [bought the 76-story Columbia Center](http://www.seattletimes.com/business/real-estate/columbia-center-sold/) for $711 million in August. In November, Pacific Eagle, the San Francisco subsidiary of Hong Kong-based Great Eagle Holdings, [reached a deal to buy Dexter Horton](http://www.seattletimes.com/business/real-estate/hong-kong-company-set-to-buy-dexter-horton-building/), which dates back to 1924.",
+    "image": "test.jpg"
+  },
+  {
+    "id": 7,
+    "question": "The 101-story tower proposed for downtown Seattle would include which of these?",
+    "description": "Developers of the [101-story tower](http://www.seattletimes.com/business/real-estate/seattle-about-to-enter-elite-skyscraper-club/), 4/C, will include an **earthquake-dampening water pool** at the top of the building.",
+    "image": "test.jpg"
+  },
+  {
+    "id": 8,
+    "question": "Which was the biggest of these local deals announced in 2015?",
+    "description": "In November, **Weyerhaeuser [announced](http://www.seattletimes.com/business/weyerhaeuser-plum-creek-to-combine-into-one-timber-giant/) it was buying Plum Creek for $8.4 billion** to form the nation’s largest private owner of timberland. Home-shopping giant QVC bought Zulily in a $2.4 billion cash-and-stock deal announced in August. Expedia said in November it is [buying vacation-rental company HomeAway](http://www.seattletimes.com/business/expedia-buys-homeaway-for-39-billion/) in a $3.9 billion deal.",
+    "image": "test.jpg"
+  },
+  {
+    "id": 9,
+    "question": "The city of SeaTac currently has the highest minimum wage within the state for certain workers. What is that minimum wage?",
+    "description": "As of Jan. 1, the [minimum wage](http://www.seattletimes.com/business/economy/states-high-court-extends-seatac-minimum-wage-to-airport-workers/) for workers in SeaTac has been **$15.24 an hour**.",
+    "image": "test.jpg"
+  },
+  {
+    "id": 10,
+    "question": "Local space-technology company Tethers Unlimited uses a highly customized braiding machine to make long space tethers out of high-strength fibers such as metalized Kevlar. The $150,000 machine’s original purpose was to make?",
+    "description": "Tethers Unlimited’s Rob Hoyt went to Japan to buy a machine [**originally designed to make lace**](http://www.seattletimes.com/business/boeing-aerospace/greater-seattle-area-companies-embrace-space-quest/) for kimonos and Victoria's Secret-type underwear.",
+    "image": "test.jpg"
+  },
+  {
+    "id": 11,
+    "question": "What new business did Amazon NOT enter in 2016?",
+    "description": "No word yet on **driverless-car delivery** by Amazon. October was a busy month. The Seattle company introduced Oct. 7 business applications to help companies [analyze the data](http://www.seattletimes.com/business/amazon/amazon-jumps-into-market-for-business-data-analysis/) they’re storing on AWS servers. The next day it [launched a site](http://www.seattletimes.com/business/amazon/amazon-takes-on-etsy-launches-craft-site-handmade/) that offers handmade crafts in competition with Etsy.",
+    "image": "test.jpg"
+  },
+  {
+    "id": 12,
+    "question": "Among these companies, which had the largest stock gain for the year? (Percent gain, as of Dec. 18 close.)",
+    "description": "While all three blue-chip companies enjoyed gains, **Amazon.com blew away the field** with a 114 percent increase in its stock price, closing Dec. 18 at $664.14 a share.",
+    "image": "test.jpg"
+  },
+  {
+    "id": 13,
+    "question": "The Northwest Seaport Alliance, finalized over the summer, unifies the marine-cargo division of which two seaports?",
+    "description": "**Seattle** and **Tacoma** Port commissioners voted in August to [join forces](http://www.seattletimes.com/business/international-trade/seattle-tacoma-ports-ok-bold-alliance-in-marine-cargo-business/) in worldwide competition for marine cargo.",
+    "image": "test.jpg"
+  },
+  {
+    "id": 14,
+    "question": "What company bought Seattle-based craft brewery Elysian at the start of the year?",
+    "description": "**Anheuser-Busch** in January [bought](http://old.seattletimes.com/html/businesstechnology/2025528085_anheuserelysianxml.html) the 20-year-old Elysian Brewing company. Terms were not disclosed.",
+    "image": "test.jpg"
+  }
+]

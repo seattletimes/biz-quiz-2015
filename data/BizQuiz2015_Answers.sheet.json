@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "answer": "Foss Maritime",
+    "correct": "x"
+  },
+  {
+    "id": 1,
+    "answer": "Vigor Industries"
+  },
+  {
+    "id": 1,
+    "answer": "Holland America"
+  },
+  {
+    "id": 2,
+    "answer": "Bellevue’s K2, a business-software company"
+  },
+  {
+    "id": 2,
+    "answer": "Online legal marketplace Avvo"
+  },
+  {
+    "id": 2,
+    "answer": "Adaptive Biotechnologies, which examines the genetic makeup of the immune system to help fight cancer",
+    "correct": "x"
+  },
+  {
+    "id": 3,
+    "answer": 110
+  },
+  {
+    "id": 3,
+    "answer": 146,
+    "correct": "x"
+  },
+  {
+    "id": 3,
+    "answer": 168
+  },
+  {
+    "id": 4,
+    "answer": "Insurance company Symetra in Bellevue"
+  },
+  {
+    "id": 4,
+    "answer": "Online clothing company Zulily in Seattle"
+  },
+  {
+    "id": 4,
+    "answer": "Aerospace-equipment maker Precision Castparts in Portland",
+    "correct": "x"
+  },
+  {
+    "id": 5,
+    "answer": "Part of an old moonshine still collected as evidence after an explosion and donated to Seattle’s Metropolitan Police Museum"
+  },
+  {
+    "id": 5,
+    "answer": "A heat exchanger from one of the Apollo 16 rocket engines retrieved from the ocean and donated to the Museum of Flight",
+    "correct": "x"
+  },
+  {
+    "id": 5,
+    "answer": "A prop from the latest “Star Wars” movie donated to Paul Allen’s Sci-Fi Museum"
+  },
+  {
+    "id": 6,
+    "answer": "The region’s tallest building, Columbia Center"
+  },
+  {
+    "id": 6,
+    "answer": "Downtown Seattle’s Dexter Horton Building"
+  },
+  {
+    "id": 6,
+    "answer": "The award-winning Weyerhaeuser headquarters in Federal Way",
+    "correct": "x"
+  },
+  {
+    "id": 7,
+    "answer": "An earthquake-dampening water pool at the top",
+    "correct": "x"
+  },
+  {
+    "id": 7,
+    "answer": "A 45 mph elevator to reach the top in 45 seconds"
+  },
+  {
+    "id": 7,
+    "answer": "A 60-story waterfall to provide natural cooling"
+  },
+  {
+    "id": 8,
+    "answer": "QVC buys Zulily"
+  },
+  {
+    "id": 8,
+    "answer": "Weyerhaeuser buys Plum Creek",
+    "correct": "x"
+  },
+  {
+    "id": 8,
+    "answer": "Expedia buys HomeAway"
+  },
+  {
+    "id": 9,
+    "answer": "$12.25"
+  },
+  {
+    "id": 9,
+    "answer": "$15.00"
+  },
+  {
+    "id": 9,
+    "answer": "$15.24",
+    "correct": "x"
+  },
+  {
+    "id": 10,
+    "answer": "Heavy rope for marine applications"
+  },
+  {
+    "id": 10,
+    "answer": "Lace for kimonos and lingerie",
+    "correct": "x"
+  },
+  {
+    "id": 10,
+    "answer": "Braided dough for challah and other twisty breads"
+  },
+  {
+    "id": 11,
+    "answer": "Resale of handmade crafts"
+  },
+  {
+    "id": 11,
+    "answer": "On-demand data-analysis technology"
+  },
+  {
+    "id": 11,
+    "answer": "Driverless-car delivery",
+    "correct": "x"
+  },
+  {
+    "id": 12,
+    "answer": "Amazon",
+    "correct": "x"
+  },
+  {
+    "id": 12,
+    "answer": "Starbucks"
+  },
+  {
+    "id": 12,
+    "answer": "Microsoft"
+  },
+  {
+    "id": 13,
+    "answer": "Olympia and Tacoma"
+  },
+  {
+    "id": 13,
+    "answer": "Vancouver and Prince Rupert"
+  },
+  {
+    "id": 13,
+    "answer": "Seattle and Tacoma",
+    "correct": "x"
+  },
+  {
+    "id": 14,
+    "answer": "MillerCoors"
+  },
+  {
+    "id": 14,
+    "answer": "Anheuser-Busch",
+    "correct": "x"
+  },
+  {
+    "id": 14,
+    "answer": "Heineken"
+  }
+]

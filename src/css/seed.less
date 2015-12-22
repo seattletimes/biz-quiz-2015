@@ -1,0 +1,138 @@
+@import "seattletimes";
+
+@green: #757F26;
+@red: #99352E;
+
+body {
+  font-family: @df-sans;
+}
+
+.outer {
+  max-width: 630px;
+  margin-bottom: 30px;
+
+  @media @mobile {
+    margin-bottom: 20px;
+  }
+}
+
+.quiz-box {
+  border-top: 6px solid @df-navy;
+  border-bottom: 6px solid @df-navy;
+  margin: 30px 0 10px 0;
+  padding: 30px;
+
+  @media @mobile {
+    padding: 20px 5px;
+    margin-top: 20px;
+  }
+
+  .index {
+    color: @df-dark-gray;
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  .question {
+    font-style: italic;
+    font-weight: bold;
+  }
+  .option {
+    font-size: 16px;
+    margin-top: 15px;
+    color: @df-charcoal;
+  }
+  .description {
+    font-size: 16px;
+  }
+
+  input {
+    display: none;
+
+    & + label::before {
+      font: normal normal normal 14px/1 FontAwesome;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      content: "\f1db";
+      margin-right: 8px;
+    }
+
+    &:checked + label::before {
+      content: "\f111";
+      color: @df-navy;
+    }
+  }
+
+  label {
+    cursor: pointer;
+  }
+  p {
+    display: inline;
+  }
+}
+
+.submit, .next {
+  border-radius: 2px;
+  background: @df-border-gray;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: default;
+  color: white;
+  border: none;
+  padding: 7px 10px;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.2s linear;
+  margin-top: 20px;
+
+  &.active {
+    background: lighten(@df-navy, 10%);
+    cursor: pointer;
+    
+    &:hover {
+      background: @df-navy;
+    }
+  }
+}
+
+.correct, .wrong {
+  font-weight: bold;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+.correct {
+  color: @green;
+}
+.wrong {
+  color: @red;
+}
+
+.result-name {
+  font-weight: bold;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+.result-description {
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+
+.share {
+  margin-bottom: 10px !important;
+
+  label {
+    border-radius: 2px !important;
+    background: lighten(@df-navy, 10%) !important;
+    color: white !important;
+  }
+}
+
+.credits {
+  font-size: 11px;
+  text-align: right;
+  color: @df-middle-gray;
+
+  @media @mobile {
+    padding-right: 5px;
+  }
+}

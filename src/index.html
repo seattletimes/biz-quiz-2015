@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+
+    <responsive-child>
+      <div class="outer">
+        <div class="quiz-box"></div>
+        <div class="credits">
+          Quiz by xxx
+          <br>Development by Audrey Carlsen
+        </div>
+      </div>
+    </responsive-child>
+
+    <script>
+      <% 
+        var stmd = require("commonmark");
+        var writer = new stmd.HtmlRenderer();
+        var reader = new stmd.Parser();
+
+        var convert = function(s) {
+          return writer.render(reader.parse(s));
+        }
+
+        var quizData = {};
+        json.BizQuiz2015_Questions.forEach(function(p) {
+          quizData[p.id] = { 
+            "question": p.question,
+            "desc": convert(p.description.toString()),
+            "image": p.image
+          };
+        });
+        json.BizQuiz2015_Answers.forEach(function(a, index) {
+          var id = a.id;
+          if (!quizData[id].answers) { quizData[id].answers = [] }
+          var answer = { 
+            "answer": convert(a.answer.toString()),
+            "correct": a.correct,
+            "id": index
+          };
+          quizData[id].answers.push(answer);
+        });
+      %>
+      var quizData = <%= JSON.stringify(quizData) %>
+      var resultsData = <%= JSON.stringify(json.BizQuiz2015_Results) %>
+    </script>
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

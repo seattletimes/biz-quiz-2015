@@ -1,0 +1,11 @@
+<div class="index"></div>
+<div class="question">{{{question}}}</div>
+
+{{#answers}}
+  <div class="option">
+    <input type="radio" value="{{correct}}" name="answer" id="{{id}}">
+    <label for="{{id}}">{{{answer}}}</label>
+  </div>
+{{/answers}}
+
+<button class="submit" disabled><i class="fa fa-check"></i> Submit</button>
