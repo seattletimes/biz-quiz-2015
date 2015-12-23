@@ -12,7 +12,7 @@ var resultTemplate = require("./_resultTemplate.html");
 var overviewTemplate = require("./_overviewTemplate.html");
 
 var score = 0;
-var id = 1;
+var id = 14;
 
 ich.addTemplate("questionTemplate", questionTemplate);
 ich.addTemplate("resultTemplate", resultTemplate);
@@ -78,9 +78,9 @@ var calculateResult = function() {
     if (score >= result.min && score <= result.max) {
       result.score = score;
       if (result.score > 5) { 
-        result.color = "#557F23"
+        result.color = "#1AB08E"
       } else {
-        result.color = "#7F3723"
+        result.color = "#B22F2E"
       }
 
       $(".quiz-box").html(ich.overviewTemplate(result));
