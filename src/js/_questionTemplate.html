@@ -1,6 +1,11 @@
 <div class="index"></div>
 <div class="question">{{{question}}}</div>
 
+{{#questionImage}}
+  <img class="question-image" src="./assets/{{questionImage}}">
+  <div class="photo-credit">{{photographer}}</div>
+{{/questionImage}}
+
 {{#answers}}
   <div class="option">
     <input type="radio" value="{{correct}}" name="answer" id="{{id}}">

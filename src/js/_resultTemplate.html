@@ -1,8 +1,13 @@
 <div class="index"></div>
-<div class="correct">{{#hooray}}Right!{{/hooray}}</div>
-<div class="wrong">{{^hooray}}Wrong.{{/hooray}}</div>
+<div class="correct">{{#hooray}}RIGHT!{{/hooray}}</div>
+<div class="wrong">{{^hooray}}WRONG.{{/hooray}}</div>
 
 <div class="description">{{{description}}}</div>
-</div>
+
+{{#answerImage}}
+  <img class="answer-image" src="./assets/{{answerImage}}">
+  <div class="caption">{{caption}}</div>
+  <div class="photo-credit">{{photographer}}</div>
+{{/answerImage}}
 
 <button class="next active">Next question <i class="fa fa-arrow-right"></i></button>

@@ -1,4 +1,4 @@
-require("./lib/social");
+// require("./lib/social");
 // require("./lib/ads");
 // var track = require("./lib/tracking");
 
@@ -6,13 +6,13 @@ require("component-responsive-frame/child");
 
 var $ = require("jquery");
 var ich = require("icanhaz");
-var Share = require("share");
+
 var questionTemplate = require("./_questionTemplate.html");
 var resultTemplate = require("./_resultTemplate.html");
 var overviewTemplate = require("./_overviewTemplate.html");
 
 var score = 0;
-var id = 14;
+var id = 1;
 
 ich.addTemplate("questionTemplate", questionTemplate);
 ich.addTemplate("resultTemplate", resultTemplate);
@@ -42,8 +42,10 @@ $(".quiz-box").on("click", ".submit", function() {
   quizData[id].answers.forEach(function(a) {
     if (a.correct) {
       answerData.correct = a.answer;
-      answerData.image = quizData[id].image;
       answerData.description = quizData[id].desc;
+      answerData.answerImage = quizData[id].answerImage;
+      answerData.photographer = quizData[id].photographer;
+      answerData.caption = quizData[id].caption;
     }
   });
 
@@ -51,7 +53,7 @@ $(".quiz-box").on("click", ".submit", function() {
   $(".index").html(id + " of " + Object.keys(quizData).length);
 
   if (id == Object.keys(quizData).length) {
-    $(".next").html("See results");
+    $(".next").html("See results!");
   }
   watchNext();
 });
@@ -75,23 +77,18 @@ var calculateResult = function() {
     var result = resultsData[index];
     if (score >= result.min && score <= result.max) {
       result.score = score;
-      if (result.score > 11) { 
+      if (result.score > 5) { 
         result.color = "#557F23"
-      } else if (result.score > 5) { 
-        result.color = "#8DCC43"
-      } else if (result.score > 2) { 
-        result.color = "#993C23"
       } else {
         result.color = "#7F3723"
       }
 
       $(".quiz-box").html(ich.overviewTemplate(result));
 
-      new Share(".share", {
-        description: "I scored " + result.score + "/14! Test your knowledge of what made business news in 2015.",
-        ui: {
-          flyout: "bottom right"
-        }
+      $(".retake").click(function() {
+        id = 1;
+        score = 0;
+        showQuestion(id);
       });
     }
   }

@@ -13,10 +13,6 @@
     <responsive-child>
       <div class="outer">
         <div class="quiz-box"></div>
-        <div class="credits">
-          Quiz by xxx
-          <br>Development by Audrey Carlsen
-        </div>
       </div>
     </responsive-child>
 
@@ -35,7 +31,10 @@
           quizData[p.id] = { 
             "question": p.question,
             "desc": convert(p.description.toString()),
-            "image": p.image
+            "questionImage": p.questionImage,
+            "answerImage": p.answerImage,
+            "photographer": p.photographer,
+            "caption": p.caption
           };
         });
         json.BizQuiz2015_Answers.forEach(function(a, index) {

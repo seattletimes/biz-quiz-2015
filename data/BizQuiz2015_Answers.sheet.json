@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "answer": "Bellevue’s K2, a business-software company"
+    "answer": "Business-software company K2"
   },
   {
     "id": 2,
@@ -22,7 +22,7 @@
   },
   {
     "id": 2,
-    "answer": "Adaptive Biotechnologies, which examines the genetic makeup of the immune system to help fight cancer",
+    "answer": "Bioinformatics company Adaptive Biotechnologies",
     "correct": "x"
   },
   {
@@ -53,16 +53,16 @@
   },
   {
     "id": 5,
-    "answer": "Part of an old moonshine still collected as evidence after an explosion and donated to Seattle’s Metropolitan Police Museum"
+    "answer": "An old moonshine still, collected as evidence after an explosion and donated to Seattle’s Metropolitan Police Museum"
   },
   {
     "id": 5,
-    "answer": "A heat exchanger from one of the Apollo 16 rocket engines retrieved from the ocean and donated to the Museum of Flight",
+    "answer": "A heat exchanger from one of the Apollo 16 rocket engines, retrieved from the ocean and donated to the Museum of Flight",
     "correct": "x"
   },
   {
     "id": 5,
-    "answer": "A prop from the latest “Star Wars” movie donated to Paul Allen’s Sci-Fi Museum"
+    "answer": "A prop from the latest “Star Wars” movie, donated to Paul Allen’s Science Fiction Museum"
   },
   {
     "id": 6,

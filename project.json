@@ -5,8 +5,8 @@
       "path": ""
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2015/business/biz-quiz-2015"
     }
   },
   "title": "",
@@ -15,7 +15,7 @@
   "slug": "",
   "tags": [],
   "image": "assets/social.jpg",
-  "production": false,
+  "production": true,
   "embedded": true,
   "sheets": ["1XFHYKcn3DmRzQwc32C-P7AOPszUR21fJAMImaDTcv3U"]
 }

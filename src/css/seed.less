@@ -19,12 +19,12 @@ body {
 .quiz-box {
   border-top: 6px solid @df-navy;
   border-bottom: 6px solid @df-navy;
-  margin: 30px 0 10px 0;
+  margin: 30px 0;
   padding: 30px;
 
   @media @mobile {
     padding: 20px 5px;
-    margin-top: 20px;
+    margin: 20px 0;
   }
 
   .index {
@@ -71,7 +71,8 @@ body {
   }
 }
 
-.submit, .next {
+.submit, .next, .retake {
+  display: inline-block;
   border-radius: 2px;
   background: @df-border-gray;
   font-weight: bold;
@@ -93,6 +94,15 @@ body {
       background: @df-navy;
     }
   }
+
+  .fa {
+    padding-right: 2px;
+  }
+}
+
+.next {
+  clear: both;
+  display: block;
 }
 
 .correct, .wrong {
@@ -114,17 +124,34 @@ body {
 }
 .result-description {
   font-size: 17px;
-  padding-bottom: 15px;
 }
 
-.share {
-  margin-bottom: 10px !important;
+.answer-image {
+  max-height: 250px;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  float: left;
+  max-width: 75%;
+  margin-right: 15px;
+}
+.question-image {
+  margin-top: 10px;
+  max-height: 250px;
+}
 
-  label {
-    border-radius: 2px !important;
-    background: lighten(@df-navy, 10%) !important;
-    color: white !important;
-  }
+.caption {
+  font-size: 11px;
+  color: @df-middle-gray;
+  font-style: italic;
+  padding-top: 25%;
+  padding-bottom: 4px;
+}
+
+.photo-credit {
+  text-transform: uppercase;
+  color: @df-middle-gray;
+  font-size: 10px;
 }
 
 .credits {
